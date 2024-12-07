@@ -31,9 +31,10 @@ This project demonstrates how to integrate a generative AI API to create a simpl
 
 #### Installation
 
-1.  Clone the repository or download the project files.
+	1.	Clone the repository or download the project files.
+	2.	Install the required package:
+        pip install cohere
     
-2.  bashCopy codepip install cohere
     
 3.  Obtain your Cohere API key:
     
@@ -41,9 +42,10 @@ This project demonstrates how to integrate a generative AI API to create a simpl
         
     *   Copy the API key from your Cohere dashboard.
         
-4.  pythonCopy codeco = cohere.Client('your\_cohere\_api\_key')
+4. import cohere
+   cohere_client = cohere.Client('your_cohere_api_key')
     
-5.  bashCopy codepython app.py
+6.  bash python app.py
     
 
 ### Reflection
